@@ -1,0 +1,17 @@
+doctype
+html
+	head
+		title #{title}
+		link(rel='stylesheet', href='/css/style.css')
+	body
+		header
+			h1 #{title}
+		.container
+			.main-content
+				block content
+			.sidebar
+				block sidebar
+		footer
+			p Running on node with Express, Jade, Stylus and CoffeeScript
+		script(src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js')
+		script(src='/js/script.js')

@@ -1,0 +1,20 @@
+{
+  "name": "test",
+  "version": "0.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "jade": "~1.11.0",
+    "jsd": "~1.1.2",
+    "express": "~4.13.3",
+    "stylus": "~0.52.4",
+    "nib": "~1.1.0",
+    "coffee-script": "~1.10.0",
+    "connect": "~3.4.0",
+    "express-coffee-script": "~0.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tim Saunders"
+}
